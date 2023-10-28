@@ -1,0 +1,12 @@
+#include<iomanip>
+using namespace std;
+int main()
+{
+	int a1,a2,a3,a4,a5,a6,a7,a8,a9;
+	cout<<"enter the nine numbers:";
+	cin>>a1>>a2>>a3>>a4>>a5>>a6>>a7>>a8>>a9;
+	cout<<setw(2)<<a1<<","<<setw(2)<<a2<<","<<setw(2)<<a3<<endl;
+	cout<<setw(2)<<a4<<","<<setw(2)<<a5<<","<<setw(2)<<a6<<endl;
+	cout<<setw(2)<<a7<<","<<setw(2)<<a8<<","<<setw(2)<<a9<<endl;
+	return 0;
+}
